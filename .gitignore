@@ -1,0 +1,10 @@
+# Fichiers sensibles
+.env
+
+# Dossiers générés automatiquement
+node_modules/
+.vscode/
+__pycache__/
+
+# Logs
+*.log
