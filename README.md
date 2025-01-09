@@ -15,11 +15,11 @@ Ce projet configure un environnement WordPress avec Docker Compose, incluant Ngi
 ## Accès à Nginx et à la Base de Données
 - **Nginx** : Accédez via `localhost:8080`.
 - **Base de Données (HeidiSQL)** :
-  - **Nom de l'hôte** : `localhost`.
-  - **Nom de la base de données** : `exampledb`.
-  - **Utilisateur** : `admin`.
-  - **Mot de passe** : `admin`.
-  - **Mot de passe root** : `rootpassword`.
+  - **Nom de l'hôte** : `mysql:3306`.
+  - **Nom de la base de données** : `wordpress`.
+  - **Utilisateur** : `admin`. (Pas sur)
+  - **Mot de passe** : `admin`. (Pas sur)
+  - **Mot de passe root** : `Pa$w0rd`.
 
 ## Possible erreur:
 - **Port** : Il se peut que vous ayez une erreur pour MySQL avec le port 3306, voici la marche à suivre pour régler le problème :
